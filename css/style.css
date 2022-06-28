@@ -1,0 +1,70 @@
+body {
+    font-family: arial;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  header {
+    background-color: black;
+    color: white;
+  }
+  
+  nav {
+    background-color: #363636;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  aside {
+    background-color: #4F4F4F;
+    color: white;
+    height: 200px;
+    padding: 10px;
+    flex-basis: 100%;
+  }
+  
+  header, nav {
+    padding: 10px;
+    flex-basis: 100%;
+  }
+  
+  .container {
+    display : flex;
+    background-color: white;
+    color: white;
+    width: 100%;
+    column-gap: 10px;
+  }
+  
+  .bloco {
+    background-color: #808080;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    flex-basis: 100%;
+    height: 100px;
+  }
+  
+  .container-2 {
+    display : flex;
+    background-color: white;
+    color: white;
+    width: 100%;
+    column-gap: 10px;
+  }
+  
+  .caixa {
+    background-color: #A9A9A9;
+    color: white;
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 10px;
+    flex-basis: 100%;
+  }
+  
+  footer {
+    background-color: #D3D3D3;
+    padding: 10px;
+    flex-basis: 100%;
+    }
